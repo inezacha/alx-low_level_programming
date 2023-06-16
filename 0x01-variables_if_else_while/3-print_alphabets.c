@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 /**
  * main - main Entry point
  * Return: Always 0 (Success)
@@ -14,12 +13,12 @@ int main(void)
 	c = 'a';
 	d = 'A';
 	while
-		(c <= 'z') {
+		if(c <= 'z') {
 			putchar(c);
 			c++;
 		}
 	while
-		(d <= 'z') {
+	       if(d <= 'z') {
 			putchar (d);
 			d++;
 		}
