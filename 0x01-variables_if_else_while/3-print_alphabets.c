@@ -14,12 +14,12 @@ int main(void)
 	d = 'A';
 	while
 		(c <= 'z') {
-			putchar(c);
+			putChar(c);
 			c++,
 		}
 	while
 		(d <= 'z') {
-			putchar (d);
+			putChar (d);
 			d++,
 		}
 	putchar('\n');
