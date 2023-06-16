@@ -10,18 +10,16 @@ int main(void)
 
 	char D;
 
-	c = 'a';
-	D = 'A';
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
+	printf("c: ");
+	for (c = 'c'; c <= 'z' c++) { 
+		printf("%c", c);
+	}
+	printf("\n D: ");
+	for ( 'C' ; <= 'D'; D++) {
+		printf("%c",c);
 		}
-	while
-		(D <= 'z') {
-			putchar (D);
-			D++;
-		}
-	putchar('\n');
+
+	printf('\n');
+	
 	return (0);
 }
