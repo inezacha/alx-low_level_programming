@@ -8,19 +8,19 @@ int main(void)
 {
 	char c;
 
-	char d;
+	char D;
 
 	c = 'a';
-	d = 'A';
+	D = 'A';
 	while
 		(c <= 'z') {
 			putchar(c);
 			c++;
 		}
 	while
-		(d <= 'z') {
-			putchar (d);
-			d++;
+		(D <= 'z') {
+			putchar (D);
+			D++;
 		}
 	putchar('\n');
 	return (0);
