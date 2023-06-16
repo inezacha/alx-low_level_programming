@@ -4,22 +4,24 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
-{
+int main (void)
+
 	char c;
-
-	char D;
-
-	printf("c: ");
-	for (c = 'c'; c <= 'z' c++) { 
-		printf("%c", c);
-	}
-	printf("\n D: ");
-	for ( 'C' ; <= 'D'; D++) {
-		printf("%c",c);
-		}
-
-	printf('\n');
 	
-	return (0);
+	char d;
+
+	c = 'a';
+	d = 'A';
+	while
+	(c <= 'z'); {
+		putchar(c);
+		c++;
+	}
+while
+(d <= 'z'){
+	putchat (d);
+	d++;
+}
+putchar('\n');
+return (0);
 }
