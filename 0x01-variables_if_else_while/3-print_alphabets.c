@@ -5,23 +5,15 @@
  */
 
 int main(void)
+{
+	char alp[52] =
+	"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-	char c;
-	
-	char d;
-
-	c = 'a';
-	d = 'A';
-	while
-	(c <= 'z'); {
-		putchar(c);
-		c++;
-	}
-while
-(d <= 'Z') {
-	putchat (d);
-	d++;
-}
-putchar('\n');
-return (0);
-}
+	int i;
+	for (i = 0; i < 52; i++)
+{
+	putchar(alp[i];
+			}
+			putchar('\n');
+			return (0);
+			}
