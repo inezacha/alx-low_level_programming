@@ -14,5 +14,5 @@ int main(void)
 		putchar(i);
 	}
 	putchar('\n');
-	return (0); // Return 0 to  indicate successful program execution
+	return (0);
 }
