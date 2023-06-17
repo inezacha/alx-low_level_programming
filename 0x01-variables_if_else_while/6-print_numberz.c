@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Prints numbers form 0 to 9.
  *
