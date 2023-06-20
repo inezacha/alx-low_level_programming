@@ -1,20 +1,22 @@
 #include "main.h"
-#include <stlib.h>
 
 /**
- * _abs - computes the absolute value of an integer.
- * @c: The number to be computed
- * Return: Absolute value of number or zero
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-
-int _abs(int c);
+int main(void)
 {
-	if (c < 0)
-	{
-	int abs_val;
+  int r;
 
-	r = c * (-1);
-	return (abs_val);
-	}
-	return (c);
+  r = _abs(-1);
+
+  printf("%d\n", r);
+  r = _abs(0);
+  printf("%d\n", r);
+  r = _abs(1);
+  printf("%d\n", r);
+  r = _abs(-98);
+  printf("%d\n", r);
+  return (0);
 }
