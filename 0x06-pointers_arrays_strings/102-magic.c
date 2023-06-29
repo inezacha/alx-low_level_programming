@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /*
  * The main function is the entry point of the program.
