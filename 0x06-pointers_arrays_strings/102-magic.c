@@ -1,4 +1,12 @@
+#include <stdio.h>
 #include "main.h"
+
+/*
+ * The main function is the entry point of the program.
+ * It initializes variables and performs a specific operation.
+ * It ensures that the value at the sixth index from the memory address
+ * pointed by 'p' is set to 98, which will result in printing 98 as a[2].
+ */
 
 int main(void)
 {
