@@ -24,5 +24,4 @@ void print_number(int n)
 	}
 	putchar((n1 % 10) + '0');
 	putchar('\n');
-	return (0);
 }
