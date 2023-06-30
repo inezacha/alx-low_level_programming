@@ -44,6 +44,7 @@ void print_number(int n)
 			else
 				putchar(n % 10 + '0');
 			power = 0;
+			putchar ('\n');
 		}
 	}
 }
