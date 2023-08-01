@@ -3,9 +3,9 @@
 /**
  * delete_nodeint_at_index - deletes the node at index
  * of a linked list.
- * @head: head of a list
+ * @head: head of a list.
  * @index: index of the list where the node is
- * deleted
+ * deleted.
  *
  * Return: 1 if it succeeded, -1 if it failed.
  */
